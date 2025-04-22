@@ -1,0 +1,17 @@
+.logo{
+display: flex;
+padding: 4%;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: end;
+}
+
+.active{
+    background-color: grey;
+}

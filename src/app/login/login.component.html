@@ -1,0 +1,16 @@
+
+<form action="">
+<label for="login"></label>
+<input type="text" placeholder="Usuario" name="login" [(ngModel)]="login" required>
+<label for="senha"></label>
+<input type="password" placeholder="Senha" name="senha" [(ngModel)]="senha" required>
+<button (click)="addLogin()" >Login</button>
+</form>
+<!-- @for(login of loginSenha;  track login.login;){
+    <ul>
+        <li>{{login.login}}</li> 
+        <li>{{login.senha}}</li>
+        <button (click)="removeLogin(login.login)">Remover</button>
+    </ul>
+   
+} -->

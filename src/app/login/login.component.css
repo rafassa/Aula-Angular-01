@@ -1,0 +1,11 @@
+form{
+
+
+
+}
+
+input{
+    display: flex;
+    flex-direction: column;
+   justify-self: end;
+}}}
