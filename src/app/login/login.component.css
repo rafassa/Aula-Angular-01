@@ -1,11 +1,40 @@
+section{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
 form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
-
-
+.loginText{
+    font-size: 2em;
+    border: solid black 3px;
+    border-radius: 20px;
+    padding: 1%;
 }
 
 input{
     display: flex;
     flex-direction: column;
-   justify-self: end;
-}}}
+   justify-self: center;
+   padding: 4%;
+   border-radius:20px
+}
+
+button{
+    display: flex;
+    border-radius:20px;
+    padding: 4%;
+    
+}
+
+.buttonDiv{
+    display: flex;
+justify-content: center;
+}

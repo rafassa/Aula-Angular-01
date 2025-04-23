@@ -1,6 +1,8 @@
 .logo{
 display: flex;
-padding: 4%;
+padding: 2%;
+background-color: rgb(73, 73, 189);
+
 }
 
 ul{
@@ -9,9 +11,16 @@ ul{
     gap: 20px;
     width: 100%;
     align-items: center;
+   
+
     justify-content: end;
 }
 
+a{
+    color: white;
+
+}
+
 .active{
-    background-color: grey;
+    background-color: rgb(202, 6, 127);
 }
